@@ -22,3 +22,7 @@ for name in age_info.keys():
     print(f'Age of " {name} is {age_info[name]}')
 for age in age_info.values():
  print(f'Age of " {age} is {age}')
+
+
+for number in range(1,101):
+    print(number);
