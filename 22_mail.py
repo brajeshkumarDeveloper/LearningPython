@@ -2,9 +2,9 @@
 import smtplib
 
 hostname = 'smtp.gmail.com'
-email = 'brajeshdeveloper83@gmail.com'
-password = 'urfbtrxuvzgxzqhu'  # use env variable ideally
-receive_email = 'brajeshdeveloper83@gmail.com'
+email = ''
+password = ''  # use env variable ideally
+receive_email = ''
 
 try:
     with smtplib.SMTP(hostname, 587) as connection:
